@@ -63,5 +63,3 @@ streamlit run app.py
 ```bash
 http://localhost:8501
 ```
-```bash
-pip install streamlit pandas scikit-learn matplotlib

@@ -1,0 +1,20 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Datasets and large files
+*.zip
+*.rar
+# Keep the model if it's under 100MB, otherwise uncomment next line
+# *.h5
+
+# OS specific
+.DS_Store
+Thumbs.db

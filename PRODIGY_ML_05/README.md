@@ -27,7 +27,11 @@ NutriScan AI is a Streamlit-based web application that uses Deep Learning to rec
   - `preprocess.py`: Data preprocessing and augmentation.
   - `calorie_utils.py`: Dictionary mapping food classes to calorie data.
 - `download_data.py`: Script to download the dataset.
-- `requirements.txt`: Python dependencies.
+## Requirements
+- streamlit
+- tensorflow
+- numpy
+- Pillow
 
 ## Installation & Usage
 
@@ -38,8 +42,9 @@ NutriScan AI is a Streamlit-based web application that uses Deep Learning to rec
    ```
 
 2. **Install Dependencies**:
+   You can install them individually:
    ```bash
-   pip install -r requirements.txt
+   pip install streamlit tensorflow numpy Pillow
    ```
 
 3. **Run the Application**:
@@ -57,4 +62,3 @@ To retrain the model on your own dataset:
 
 ## License
 MIT
-
